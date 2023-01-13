@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-/* import seguridad from "../services/SeguridadServices"; */
+import seguridad from "../services/SeguridadServices";
 import { router } from "../router/index";
 import Swal from "sweetalert2";
 
