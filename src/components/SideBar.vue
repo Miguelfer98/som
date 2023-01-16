@@ -1,7 +1,7 @@
 <template>
   <div class="h-[100%] w-[3.4rem]">
     <div
-      class="h-[96%] rounded-xl w-[3.4rem] my-5 py-2 ml-5 overflow-hidden border-2 border-gray-300 hover:w-56 ease-in-out duration-200 fixed top-0 bg-white flex flex-row"
+      class="h-[96%] rounded-xl w-[3.4rem] my-5 py-2 ml-5 overflow-hidden border-2 border-slate-100 hover:w-56 ease-in-out duration-200 fixed top-0 bg-slate-100 flex flex-row"
     >
       <div class="flex flex-col justify-between pt-2 pb-6">
         <div>
@@ -143,7 +143,9 @@
             </li>
           </ul>
         </div>
-        <div class="w-max -mb-5">
+        <div
+          class="w-full -mb-5 flex flex-row border border-t-gray-300 border-b-transparent border-x-transparent"
+        >
           <button
             @click.stop.prevent="BtnLogout"
             class="group flex items-center space-x-4 rounded-md px-3 py-3 text-gray-600"
@@ -161,6 +163,7 @@
                 clip-rule="evenodd"
               />
             </svg>
+            <span class="group-hover:text-gray-700 pl-1">Cerrar sesión</span>
           </button>
         </div>
       </div>

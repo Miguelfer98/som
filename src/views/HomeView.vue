@@ -4,26 +4,18 @@
     <div
       class="min-h-screen w-full flex flex-col justify-center items-end p-5 px-7"
     >
-      <div
-        class="h-[10%] w-[100%] mb-4 rounded-xl p-5 bg-white opacity-[0.45] z-40 flex flex-row justify-between"
-      >
-        <div>
-          <h1>SOM</h1>
-          <p>Bienvenido</p>
-        </div>
-        <div>dsdd</div>
-      </div>
+    <headbar text="Bienvenido" />
       <div
         class="h-[88%] w-[100%] text-white flex flex-col items-center justify-center text-center"
       >
         <div class="flex bg-white h-full rounded-xl w-[100%]">
           <div
-            class="flex items-center    rounded-xl  text-center lg:text-left px-4 md:px-12 w-1/2"
+            class="flex items-center rounded-xl text-center lg:text-left px-4 md:px-12 w-1/2"
           >
             <div>
               <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">
                 Bienvenido a <a href=""></a>
-                <span class="text-green-700">SOM</span>
+                <span class="text-green-800">SOM</span>
               </h2>
               <p class="mt-2 text-sm text-gray-500 md:text-base">
                 Tu sistema de asistencia para la administración empresarial,
@@ -33,9 +25,9 @@
               <div class="flex justify-center lg:justify-start mt-6">
                 <button class="w-auto bg-orange-500">
                   <router-link
-                    class="px-3 py-3 bg-gray-900 text-gray-100 text-xs font-semibold rounded hover:bg-gray-700"
+                    class="px-[5.4rem] py-3 bg-gray-900 text-gray-100 text-xs font-semibold rounded hover:bg-gray-700"
                     to="#"
-                    >sasassasasasasas</router-link
+                    >Vamos</router-link
                   >
                 </button>
               </div>
@@ -57,6 +49,7 @@
 
 <script setup>
 import SideBar from "../components/SideBar.vue";
+import headbar from "../components/headbar.vue";
 </script>
 
 <style>
