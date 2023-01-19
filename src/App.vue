@@ -2,6 +2,10 @@
   <router-view />
 </template>
 
+<script>
+
+</script>
+
 <style>
 #app {
   font-family: "Segoe UI", Arial, sans-serif;

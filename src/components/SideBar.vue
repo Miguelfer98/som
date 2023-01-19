@@ -15,9 +15,9 @@
             </router-link>
           </div>
           <ul class="mt-6 space-y-2 tracking-wide">
-            <li class="min-w-max">
+            <li class="min-w-max hover:bg-slate-200">
               <router-link
-                to="#"
+                to="/Resumen_De_Caja"
                 class="bg group flex items-center space-x-4 rounded-full px-3 py-3"
               >
                 <svg
@@ -40,12 +40,12 @@
                   />
                 </svg>
 
-                <p class="group-hover:text-gray-700">1</p>
+                <p class="group-hover:text-gray-700">Resumen de caja</p>
               </router-link>
             </li>
-            <li class="min-w-max">
+            <li class="min-w-max hover:bg-slate-200">
               <router-link
-                to="#"
+                to="/CuadreDeCaja"
                 class="bg group flex items-center space-x-4 rounded-full px-3 py-3 text-gray-600"
               >
                 <svg
@@ -65,10 +65,10 @@
                     d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"
                   />
                 </svg>
-                <span class="group-hover:text-gray-700">1</span>
+                <span class="group-hover:text-gray-700">Cuadre de caja</span>
               </router-link>
             </li>
-            <li class="min-w-max">
+            <li class="min-w-max hover:bg-slate-200">
               <router-link
                 to="#"
                 class="group flex items-center space-x-4 rounded-md px-3 py-3 text-gray-600"
@@ -90,10 +90,10 @@
                     d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"
                   />
                 </svg>
-                <span class="group-hover:text-gray-700">2</span>
+                <span class="group-hover:text-gray-700">3</span>
               </router-link>
             </li>
-            <li class="min-w-max">
+            <li class="min-w-max hover:bg-slate-200">
               <router-link
                 to="#"
                 class="group flex items-center space-x-4 rounded-md px-3 py-3 text-gray-600"
@@ -113,10 +113,10 @@
                     d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"
                   />
                 </svg>
-                <span class="group-hover:text-gray-700">3</span>
+                <span class="group-hover:text-gray-700">4</span>
               </router-link>
             </li>
-            <li class="min-w-max">
+            <li class="min-w-max hover:bg-slate-200">
               <router-link
                 to="#"
                 class="group flex items-center space-x-4 rounded-md px-3 py-3 text-gray-600"
@@ -138,13 +138,13 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="group-hover:text-gray-700">4</span>
+                <span class="group-hover:text-gray-700">5</span>
               </router-link>
             </li>
           </ul>
         </div>
         <div
-          class="w-full -mb-5 flex flex-row border border-t-gray-300 border-b-transparent border-x-transparent"
+          class="w-full -mb-5 flex flex-row border border-t-gray-300 border-b-transparent border-x-transparent hover:bg-slate-200"
         >
           <button
             @click.stop.prevent="BtnLogout"

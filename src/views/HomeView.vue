@@ -4,9 +4,9 @@
     <div
       class="min-h-screen w-full flex flex-col justify-center items-end p-5 px-7"
     >
-    <headbar text="Bienvenido" />
+      <headbar text="Bienvenido" />
       <div
-        class="h-[88%] w-[100%] text-white flex flex-col items-center justify-center text-center"
+        class="h-[90%] w-[99.5%] text-white flex flex-col items-center justify-center text-center"
       >
         <div class="flex bg-white h-full rounded-xl w-[100%]">
           <div
@@ -38,7 +38,7 @@
             style="clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%)"
           >
             <div
-              class="h-full object-cover fondo rounded-tr-xl rounded-br-xl"
+              class="h-full fondo object-cover rounded-tr-xl rounded-br-xl"
             ></div>
           </div>
         </div>
@@ -50,6 +50,7 @@
 <script setup>
 import SideBar from "../components/SideBar.vue";
 import headbar from "../components/headbar.vue";
+
 </script>
 
 <style>

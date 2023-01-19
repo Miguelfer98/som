@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-auto w-[100%] mb-4 rounded-xl p-4 px-4 md:px-12 bg-white z-40 flex flex-row justify-between"
+    class="h-auto w-[99.5%] mb-4 rounded-xl p-4 px-4 md:px-12 bg-white z-40 flex flex-row justify-between"
   >
     <div>
       <h1 class="font-semibold text-[1.3rem]">SOM</h1>
